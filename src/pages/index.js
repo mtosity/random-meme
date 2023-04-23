@@ -29,7 +29,7 @@ export default function Home({ url }) {
       </Head>
 
       <main>
-        <img src={url} alt="meme" />
+        <img src={url} alt="meme" className="meme" />
       </main>
     </div>
   );
