@@ -28,7 +28,7 @@ export default function Home({ url }) {
         <meta property="twitter:image" content={url} />
       </Head>
 
-      <main>
+      <main className="center">
         <img src={url} alt="meme" className="meme" />
       </main>
     </div>
